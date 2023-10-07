@@ -1,1 +1,5 @@
-g11;rgb:0000/0000/0000
+import {RowElement, RowID} from "./interface";
+
+declare function insertRow(row: RowElement): number;
+declare function deleteRow(rowId: RowID): number;
+declare function updateRow(rowId: RowID, row: RowElement): number;
